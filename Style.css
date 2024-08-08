@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #ffc0cb;
+    --text-color: #0000ff; 
+}
+html {
+    font-size: 15px;
+}
+
+body{
+    font-family: Inter, sans-serif;
+    background-color:bisque;
+    color: white;
+}
+
+/* common styles */
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/*layouts */
+.container{ 
+    max-width: 15000px;
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    padding: 5rem;
+    background: pink;
+}
+
+.profile{
+    grid-column: 1/-1;
+    margin-bottom: 2rem;
+}
+
+/* profile */ 
+.profile_container{
+    display: flex;
+    gap: 2rem;
+}
